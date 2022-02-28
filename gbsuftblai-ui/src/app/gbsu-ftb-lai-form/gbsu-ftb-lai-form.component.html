@@ -1,3 +1,7 @@
-<div class="container"> 
-    To Be Completed
+<div class="container">
+  <div class="form-group">
+    <label for="inputNumber">Number to convert</label>
+    <input class="form-control" id="inputNumber" type="text" alt="inputNumber" [formControl]="inputNumber"/>
+    <button class="btn btn-primary" (click)="submitNumber()">Convert</button>
+  </div>  
 </div>
